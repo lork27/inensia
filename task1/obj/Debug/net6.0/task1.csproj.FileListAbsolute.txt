@@ -1,0 +1,17 @@
+/home/guillermo/Documents/interview-tests/task1/bin/Debug/net6.0/task1
+/home/guillermo/Documents/interview-tests/task1/bin/Debug/net6.0/task1.deps.json
+/home/guillermo/Documents/interview-tests/task1/bin/Debug/net6.0/task1.runtimeconfig.json
+/home/guillermo/Documents/interview-tests/task1/bin/Debug/net6.0/task1.dll
+/home/guillermo/Documents/interview-tests/task1/bin/Debug/net6.0/task1.pdb
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/task1.csproj.AssemblyReference.cache
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/task1.GeneratedMSBuildEditorConfig.editorconfig
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/task1.AssemblyInfoInputs.cache
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/task1.AssemblyInfo.cs
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/task1.csproj.CoreCompileInputs.cache
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/task1.dll
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/refint/task1.dll
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/task1.pdb
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/task1.genruntimeconfig.cache
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/ref/task1.dll
+/home/guillermo/Documents/interview-tests/task1/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/guillermo/Documents/interview-tests/task1/obj/Debug/net6.0/task1.csproj.CopyComplete
