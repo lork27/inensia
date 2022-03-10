@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getArrayOfElements() {
+            let value = (document.getElementById('my-input').value);
+            let domElement = document.querySelector(value)
+            if (!domElement) {
+                alert("this dom element doesn't exist!!!!")
+                return
+            }
+            const getAllChildren = (element) => {
+                if (element.children.length === 0) {
+                    return [element]
+                }
+
+                let allChildElements = []
+
+                for (let i = 0; i < element.children.length; i++) {
+                    let children = getAllChildren(element.children[i])
+                    if (children) allChildElements.push(...children)
+                }
+                allChildElements.push(element)
+
+                return allChildElements
+            }
+            console.log(getAllChildren(domElement))
+        }
+        //     let children = domElement.children
+        //     let arrayElements = []
+        //     arrayElements.push(domElement)
+        //     for (i = 0; i < children.length; i++) {
+        //         if (children[i].children) {
+        //             arrayElements.push(children[i].children[0])
+        //         }
+        //         arrayElements.push(children[i])
+        //     }
+        //     console.log(arrayElements)
+        //     // console.log(children)
+        // }
+
+        // let button = document.getElementById('my-button');
+
+        // button.click(getArrayOfElements(element));
+    </script>
+</head>
+
+<body>
+    <h1>Sample page</h1>
+    <input type="text" id="my-input" value="type dom element here">
+    <input type="button" id="my-buton" onclick="getArrayOfElements()">
+    <h4>check console for output!</h4>
+
+    <div id="row">
+        <div id="col1">
+            <h2>Section 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatibus dolorem assumenda in
+                laborum, molestiae excepturi magni soluta atque, facere accusamus, doloribus architecto ipsum ut at.
+                Dicta doloribus officiis totam.</p>
+            <p>Deleniti, ex. Quae iusto deleniti ut provident, vero tempore culpa nostrum excepturi nobis laboriosam.
+                Ipsa quidem fugiat nemo adipisci, modi rem rerum aut cumque tempora, sit earum totam dolores sapiente.
+            </p>
+        </div>
+        <div id="col2">
+            <h2>Section 1</h2>
+            <p><a href="#">Lorem ipsum</a>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio laborum eius
+                ipsam quasi quisquam id voluptate, culpa animi, veniam illo iure perferendis aut asperiores fugit
+                accusamus explicabo qui in dicta!</p>
+            <p>Dicta odio placeat dolores? Sit illum placeat quod molestiae officiis quaerat accusantium et, cumque
+                eaque dolores asperiores est facilis repudiandae, provident cum dicta ex enim. Aliquam rerum quam minus
+                doloribus?</p>
+        </div>
+    </div>
+    <footer>
+        <ul id="bottomMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
