@@ -1,0 +1,15 @@
+/home/guillermo/Documents/interview-tests/task2/bin/Debug/net6.0/task2
+/home/guillermo/Documents/interview-tests/task2/bin/Debug/net6.0/task2.deps.json
+/home/guillermo/Documents/interview-tests/task2/bin/Debug/net6.0/task2.runtimeconfig.json
+/home/guillermo/Documents/interview-tests/task2/bin/Debug/net6.0/task2.dll
+/home/guillermo/Documents/interview-tests/task2/bin/Debug/net6.0/task2.pdb
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/task2.csproj.AssemblyReference.cache
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/task2.GeneratedMSBuildEditorConfig.editorconfig
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/task2.AssemblyInfoInputs.cache
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/task2.AssemblyInfo.cs
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/task2.csproj.CoreCompileInputs.cache
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/task2.dll
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/refint/task2.dll
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/task2.pdb
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/task2.genruntimeconfig.cache
+/home/guillermo/Documents/interview-tests/task2/obj/Debug/net6.0/ref/task2.dll
